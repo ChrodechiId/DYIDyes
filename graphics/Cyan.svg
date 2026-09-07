@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12">
-  <rect width="12" height="12" fill="rgb(59, 235, 230)"/>
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="40"
+    height="16"
+    viewBox="0 0 40 16">
+    
+    <rect width="40" height="16" fill="white"/>
+
+    <rect x="2"
+          y="2"
+          width="36"
+          height="12"
+          fill="rgb(59, 235, 230)"/>
 </svg>
