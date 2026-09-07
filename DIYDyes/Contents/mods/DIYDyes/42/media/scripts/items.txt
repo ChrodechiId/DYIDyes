@@ -1,0 +1,603 @@
+module HairColors
+{
+
+    item HairDyeBlack {
+        DisplayName      = Hair Dye Black,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBlack,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.10:0.09:0.08,
+            }
+        }
+    }
+
+    item HairDyeBlonde {
+        DisplayName      = Hair Dye Blonde,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBlonde,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.83:0.67:0.27,
+            }
+        }
+    }
+
+    item HairDyeGinger {
+        DisplayName      = Hair Dye Ginger,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeGinger,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.74:0.35:0.13,
+            }
+        }
+    }
+
+    item HairDyeLightBrown {
+        DisplayName      = Hair Dye Light Brown,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeLightBrown,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.62:0.42:0.17,
+            }
+        }
+    }
+
+    item HairDyeBrown {
+        DisplayName      = Hair Dye Brown,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBrown,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.40:0.26:0.09,
+            }
+        }
+    }
+
+    item HairDyeYellow {
+        DisplayName      = Hair Dye Yellow,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeYellow,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:1.00:0.84:0.45,
+            }
+        }
+    }
+
+    item HairDyeDarkGinger {
+        DisplayName      = Hair Dye Dark Ginger,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeDarkGinger,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.59:0.23:0.03,
+            }
+        }
+    }
+
+    item HairDyeBrightRed {
+        DisplayName      = Hair Dye Bright Red,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBrightRed,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:1.00:0.18:0.40,
+            }
+        }
+    }
+
+    item HairDyeBlue {
+        DisplayName      = Hair Dye Blue,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBlue,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.26:0.35:0.81,
+            }
+        }
+    }
+
+    item HairDyeGreen {
+        DisplayName      = Hair Dye Green,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeGreen,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.21:0.42:0.17,
+            }
+        }
+    }
+
+    item HairDyePink {
+        DisplayName      = Hair Dye Pink,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyePink,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.96:0.32:0.59,
+            }
+        }
+    }
+
+    item HairDyeRed {
+        DisplayName      = Hair Dye Red,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeRed,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.82:0.15:0.07,
+            }
+        }
+    }
+
+    item HairDyeWhite {
+        DisplayName      = Hair Dye White,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeWhite,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.79:0.78:0.75,
+            }
+        }
+    }
+
+    item HairDyeBrightYellow {
+        DisplayName      = Hair Dye Bright Yellow,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBrightYellow,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.99:0.87:0.00,
+            }
+        }
+    }
+
+    item HairDyeOrange {
+        DisplayName      = Hair Dye Orange,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeOrange,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.99:0.60:0.00,
+            }
+        }
+    }
+
+    item HairDyeBurgundy {
+        DisplayName      = Hair Dye Burgundy,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeBurgundy,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.65:0.12:0.34,
+            }
+        }
+    }
+
+    item HairDyePurple {
+        DisplayName      = Hair Dye Purple,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyePurple,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.72:0.25:0.89,
+            }
+        }
+    }
+
+    item HairDyeLime {
+        DisplayName      = Hair Dye Lime,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeLime,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.55:0.78:0.00,
+            }
+        }
+    }
+
+    item HairDyeTeal {
+        DisplayName      = Hair Dye Teal,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeTeal,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.01:0.49:0.57,
+            }
+        }
+    }
+
+    item HairDyeCyan {
+        DisplayName      = Hair Dye Cyan,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeCyan,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.23:0.92:0.90,
+            }
+        }
+    }
+
+    item HairDyeDarkBlue {
+        DisplayName      = Hair Dye Dark Blue,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeDarkBlue,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.00:0.20:0.60,
+            }
+        }
+    }
+
+    item HairDyeDarkGreen {
+        DisplayName      = Hair Dye Dark Green,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeDarkGreen,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.20:0.40:0.20,
+            }
+        }
+    }
+
+    item HairDyeDarkRed {
+        DisplayName      = Hair Dye Dark Red,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeDarkRed,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.60:0.00:0.00,
+            }
+        }
+    }
+
+    item HairDyeSeaGreen {
+        DisplayName      = Hair Dye Sea Green,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeSeaGreen,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.00:0.60:0.40,
+            }
+        }
+    }
+
+    item HairDyeIndigo {
+        DisplayName      = Hair Dye Indigo,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeIndigo,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.40:0.20:0.60,
+            }
+        }
+    }
+
+    item HairDyeGrey {
+        DisplayName      = Hair Dye Grey,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeGrey,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.50:0.50:0.50,
+            }
+        }
+    }
+
+    item HairDyeLavender {
+        DisplayName      = Hair Dye Lavender,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeLavender,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.85:0.69:0.92,
+            }
+        }
+    }
+
+    item HairDyeLightGreen {
+        DisplayName      = Hair Dye Light Green,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeLightGreen,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.66:1.00:0.31,
+            }
+        }
+    }
+
+    item HairDyeOlive {
+        DisplayName      = Hair Dye Olive,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeOlive,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.43:0.60:0.21,
+            }
+        }
+    }
+
+    item HairDyeTurquoise {
+        DisplayName      = Hair Dye Turquoise,
+        DisplayCategory  = Appearance,
+        ItemType         = base:normal,
+        Weight           = 0.1,
+        Icon             = HairDye,
+        IconFluidMask    = HairDye_Mask,
+        WorldStaticModel = HairColors.HairDyeTurquoise,
+
+        component FluidContainer {
+            ContainerName   = BottleHairDye,
+            PickRandomFluid = false,
+            Capacity        = 1.0,
+
+            Fluids {
+                fluid = HairDye:1.0:0.05:0.83:0.66,
+            }
+        }
+    }
+}

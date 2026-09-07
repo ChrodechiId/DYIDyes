@@ -1,0 +1,553 @@
+module Base
+{
+
+    craftRecipe MakeBlackHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintBlack],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBlack,
+        }
+    }
+
+    craftRecipe MakeBlondeHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintYellow],
+        item 1 [Base.Bleach],
+        -fluid 0.1 [Bleach],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBlonde,
+        }
+    }
+
+    craftRecipe MakeGingerHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintOrange],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeGinger,
+        }
+    }
+
+    craftRecipe MakeLightBrownHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintLightBrown],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeLightBrown,
+        }
+    }
+
+    craftRecipe MakeBrownHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintBrown],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBrown,
+        }
+    }
+
+    craftRecipe MakeYellowHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintYellow],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeYellow,
+        }
+    }
+
+    craftRecipe MakeDarkGingerHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintOrange],
+        item 1 [Base.CleaningLiquid2],
+        -fluid 0.1 [CleaningLiquid],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeDarkGinger,
+        }
+    }
+
+    craftRecipe MakeBrightRedHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintPink],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBrightRed,
+        }
+    }
+
+    craftRecipe MakeBlueHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintBlue],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBlue,
+        }
+    }
+
+    craftRecipe MakeGreenHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintGreen],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeGreen,
+        }
+    }
+
+    craftRecipe MakePinkHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintPink],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyePink,
+        }
+    }
+
+    craftRecipe MakeRedHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintRed],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeRed,
+        }
+    }
+
+    craftRecipe MakeWhiteHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintWhite],
+        item 1 [Base.Bleach],
+        -fluid 0.1 [Bleach],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeWhite,
+        }
+    }
+
+    craftRecipe MakeBrightYellowHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintYellow],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBrightYellow,
+        }
+    }
+
+    craftRecipe MakeOrangeHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintOrange],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeOrange,
+        }
+    }
+
+    craftRecipe MakeBurgundyHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintPurple],
+        item 1 [Base.CleaningLiquid2],
+        -fluid 0.1 [CleaningLiquid],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeBurgundy,
+        }
+    }
+
+    craftRecipe MakePurpleHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintPurple],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyePurple,
+        }
+    }
+
+    craftRecipe MakeLimeHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintGreen],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeLime,
+        }
+    }
+
+    craftRecipe MakeTealHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintCyan],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeTeal,
+        }
+    }
+
+    craftRecipe MakeCyanHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintCyan],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeCyan,
+        }
+    }
+
+    craftRecipe MakeDarkBlueHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintBlue],
+        item 1 [Base.CleaningLiquid2],
+        -fluid 0.1 [CleaningLiquid],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeDarkBlue,
+        }
+    }
+
+    craftRecipe MakeDarkGreenHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintGreen],
+        item 1 [Base.CleaningLiquid2],
+        -fluid 0.1 [CleaningLiquid],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeDarkGreen,
+        }
+    }
+
+    craftRecipe MakeDarkRedHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintRed],
+        item 1 [Base.CleaningLiquid2],
+        -fluid 0.1 [CleaningLiquid],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeDarkRed,
+        }
+    }
+
+    craftRecipe MakeSeaGreenHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintTurquoise],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeSeaGreen,
+        }
+    }
+
+    craftRecipe MakeIndigoHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintPurple],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeIndigo,
+        }
+    }
+
+    craftRecipe MakeGreyHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintGrey],
+        item 1 [Base.Soap2],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeGrey,
+        }
+    }
+
+    craftRecipe MakeLavenderHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintPurple],
+        item 1 [Base.Bleach],
+        -fluid 0.1 [Bleach],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeLavender,
+        }
+    }
+
+    craftRecipe MakeLightGreenHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintGreen],
+        item 1 [Base.Bleach],
+        -fluid 0.1 [Bleach],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeLightGreen,
+        }
+    }
+
+    craftRecipe MakeOliveHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintBrown],
+        item 1 [Base.CleaningLiquid2],
+        -fluid 0.1 [CleaningLiquid],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeOlive,
+        }
+    }
+
+    craftRecipe MakeTurquoiseHairDye {
+        timedAction = MixingBowl,
+        time        = 30,
+        Tags        = InHandCraft,
+        category    = Miscellaneous,
+
+        inputs {
+        item 1 [Base.PaintTurquoise],
+        item 1 [Base.BakingSoda],
+        item 1 [*],
+        -fluid 0.1 [Water;TaintedWater],
+        }
+
+        outputs {
+        item 1 HairColors.HairDyeTurquoise,
+        }
+    }
+}

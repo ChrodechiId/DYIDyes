@@ -1,0 +1,6 @@
+version=1
+id=3797168261
+title=DIYDyes
+description=Simple mod to add craftable hair dyes.
+tags=Build 42;Clothing/Armor;Items;Models;Multiplayer;Textures
+visibility=public
